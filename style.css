@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 390px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: white;
+}
+
+body{
+    background-color: #FA8500;
+    width: 390px;
+    height: 844px;
+}
+
+header nav a{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: #424242;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+main{
+    width: 390px;
+    height: 684px;
+    background-color: #FA8500
+}
+
+main p{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: justify;
+    background-color: #FA8500;
+    font-size: 20px;
+}
+
+main .wire{
+    margin-top: 66px;
+    height: 459px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .notebook{
+    margin-top: 32px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .desktop{
+    margin-top: 32px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wire img{
+    width: 180px;
+    height: 397px;
+}
+
+main .notebook img{
+    width: 180px;
+    height: 180px;
+}
+
+main .desktop img{
+    width: 180px;
+    height: 180px;
+}
+
+footer{
+    width: 390px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
